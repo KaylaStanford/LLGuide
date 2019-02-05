@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">LL Guide</string>
+        <string name="fillipos"> Fillipos </string>
+        <string name="the_buttery_biscuit"> The Buttery Biscuit </string>
+        <string name="mountaineer"> Mountaineer </string>
+        <string name="don_patron"> Don Patron </string>
+        <string name="brickyard"> Brickyard </string>
+        <string name="red_roof_inn"> Red Roof Inn </string>
+        <string name="genetti"> Genetti </string>
+        <string name="city_hall_grand_hotel"> City Hall Grand Hotel </string>
+        <string name="hampton_inn"> Hampton Inn </string>
+        <string name="community_arts_center"> Community Arts Center </string>
+        <string name="llws_museum"> Little League World Series Musuem</string>
+        <string name="tabor_museum">Thomas T Tabor Museum </string>
+        <string name="hiawatha"> Hiawatha Paddle Wheel Riverboat </string>
+        <string name="genetti_pins"> Genetti Lobby </string>
+        <string name="bullfrog"> Bullfrog Brewery </string>
+        <string name="many_more">  Many More </string>
+        <string name="fillipos_description"> Hearty portions of spaghetti and other traditional italian dishes. </string>
+        <string name="buttery_description"> Great food, hometown atmosphere, specializes in breakfast and brunch. </string>
+        <string name="mountaineer_description"> Very close to where the LLWS is held. Great food and great prices. </string>
+        <string name="don_patron_description"> Best mexican food in town. Specializes in margaritas and enchiladas. </string>
+        <string name="brickyard_description"> Amazing Burgers and unique eggrolls.</string>
+        <string name="red_roof_description"> Budget hotel 2 minute walk from LLWS Museum, free wifi, flat screens.</string>
+        <string name="genetti_description"> Historic 1920s hotel on a mainstreet in downtown Williamsport. 10 minute walk from Susquehanna River.</string>
+        <string name="city_hall_description"> Stay in the cozy Little League room on a tree lined street within walking distance of restaurants and cafes. </string>
+        <string name="hampton_description"> Modern hotel witin 2 miles of LLWS. </string>
+        <string name="community_arts_description"> Offers Broadway style productions, comedy acts, dance, film, and Live Music.</string>
+        <string name="llws_museum_description"> Center showcasing artifacts and displays relating to LLWS baseball and softball. </string>
+        <string name="tabor_museum_description"> History museum with rotating exhibits a Native American gallery and collection of 300+ model trains. </string>
+        <string name="hiawatha_description"> Boat tour agency offering many variations of Paddle Wheel Cruises. Learn the history of the Susquehanna River. </string>
+        <string name="genetti_pins_description"> LLWS pin trading headquarters. LLWS pin trading action is fast and furious at the Genetti. </string>
+        <string name="bullfrog_description"> Located right in downtown Williamsport Bullfrog Brewery offers one of the most extensive pin trading collections in town. </string>
+        <string name="many_more_description"> Just about any business you see on the map has their very own LLWS pin for sale or many places do giveaways. Be sure to keep your eye open when visiting any of the many business in Williamsport or South Williamsport. </string>
+        <string name="eats_category"> Eats </string>
+        <string name="lodging_category"> Lodging </string>
+        <string name="attractions_category">Attractions </string>
+        <string name="pins_category"> Pins </string>
+
+    </resources>
