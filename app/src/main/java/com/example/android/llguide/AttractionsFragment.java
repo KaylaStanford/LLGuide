@@ -26,7 +26,7 @@ public class AttractionsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.site_list, container, false);
+        View rootView = inflater.inflate(R.layout.list_item, container, false);
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Site> sites = new ArrayList<Site>();
         sites.add(new Site(R.string.community_arts_center, R.drawable.cac , R.string.community_arts_description));

@@ -2,27 +2,27 @@ package com.example.android.llguide;
 
 public class Site {
 
-    private int SiteImage;
-    private int TitleId;
-    private int DescriptionId;
+    private int mSiteImage;
+    private int mTitleId;
+    private int mDescriptionId;
 
     public Site(int siteImage, int titleId, int descriptionId ){
-        SiteImage = siteImage;
-        TitleId = titleId;
-        DescriptionId = descriptionId;
+        mSiteImage = siteImage;
+        mTitleId = titleId;
+        mDescriptionId = descriptionId;
     }
 
 
     public int getSiteImage(){
-        return SiteImage;
+        return mSiteImage;
     }
 
     public int getTitleId(){
-        return TitleId;
+        return mTitleId;
     }
 
     public int getDescriptionId(){
-        return DescriptionId;
+        return mDescriptionId;
     }
 }
 

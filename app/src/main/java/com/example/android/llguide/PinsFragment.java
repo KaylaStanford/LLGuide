@@ -26,7 +26,7 @@ public class PinsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.list, container, false);
+        View rootView = inflater.inflate(R.layout.list_item, container, false);
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Site> sites = new ArrayList<Site>();
         sites.add(new Site(R.string.genetti_pins, R.drawable.genettipin, R.string.genetti_pins_description));

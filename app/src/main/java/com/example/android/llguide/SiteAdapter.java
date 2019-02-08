@@ -22,7 +22,7 @@ public class SiteAdapter extends ArrayAdapter<Site> {
         View listItemView = convertView;
         if (listItemView == null){
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent,false);
+                    R.layout.site_list, parent,false);
         }
 
         Site currentSite = getItem(position);

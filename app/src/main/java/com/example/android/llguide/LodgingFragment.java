@@ -26,7 +26,7 @@ public class LodgingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.site_list, container, false);
+        View rootView = inflater.inflate(R.layout.list_item, container, false);
         ListView listView = rootView.findViewById(R.id.list);
 
         ArrayList<Site> sites = new ArrayList<Site>();

@@ -26,11 +26,10 @@ public class EatsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.site_list, container, false);
+        View rootView = inflater.inflate(R.layout.list_item, container, false);
 
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Site> sites = new ArrayList<Site>();
-        sites.add(new Site(R.string.fillipos, R.drawable.fillipos, R.string.fillipos_description));
         sites.add(new Site(R.string.the_buttery_biscuit, R.drawable.butterybiscuit, R.string.buttery_description));
         sites.add(new Site(R.string.mountaineer, R.drawable.mountaineer, R.string.mountaineer_description));
         sites.add(new Site(R.string.don_patron, R.drawable.donpatron, R.string.don_patron_description));
