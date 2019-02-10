@@ -30,10 +30,9 @@ public class EatsFragment extends Fragment {
 
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Site> sites = new ArrayList<Site>();
-        sites.add(new Site(R.string.the_buttery_biscuit, R.drawable.butterybiscuit, R.string.buttery_description));
-        sites.add(new Site(R.string.mountaineer, R.drawable.mountaineer, R.string.mountaineer_description));
-        sites.add(new Site(R.string.don_patron, R.drawable.donpatron, R.string.don_patron_description));
-        sites.add(new Site(R.string.brickyard, R.drawable.brickyard, R.string.brickyard_description));
+        sites.add(new Site(R.drawable.butterybiscuit, R.string.the_buttery_biscuit,  R.string.buttery_description));
+        sites.add(new Site(R.drawable.donpatron, R.string.don_patron,  R.string.don_patron_description));
+        sites.add(new Site( R.drawable.brickyard, R.string.brickyard, R.string.brickyard_description));
 
         SiteAdapter adapter = new SiteAdapter(getActivity(), sites);
 

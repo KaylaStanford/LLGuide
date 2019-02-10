@@ -27,14 +27,15 @@ public class SiteAdapter extends ArrayAdapter<Site> {
 
         Site currentSite = getItem(position);
 
+        ImageView imageView = listItemView.findViewById(R.id.siteImage);
+        imageView.setImageResource(currentSite.getSiteImage());
+
         TextView titleTextView = listItemView.findViewById(R.id.titleTextView);
         titleTextView.setText(currentSite.getTitleId());
 
         TextView descriptionTextView = listItemView.findViewById(R.id.descriptionTextView);
         descriptionTextView.setText(currentSite.getDescriptionId());
 
-        ImageView imageView = listItemView.findViewById(R.id.siteImage);
-        imageView.setImageResource(currentSite.getSiteImage());
 
         return listItemView;
 

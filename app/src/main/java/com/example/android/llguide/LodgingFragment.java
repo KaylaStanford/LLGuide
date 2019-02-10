@@ -30,10 +30,10 @@ public class LodgingFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.list);
 
         ArrayList<Site> sites = new ArrayList<Site>();
-        sites.add(new Site(R.string.red_roof_inn, R.drawable.red, R.string.red_roof_description));
-        sites.add(new Site(R.string.genetti, R.drawable.genetti, R.string.genetti_description));
-        sites.add(new Site(R.string.city_hall_grand_hotel, R.drawable.city, R.string.city_hall_description));
-        sites.add(new Site(R.string.hampton_inn, R.drawable.hampton, R.string.hampton_description));
+        sites.add(new Site(R.drawable.red, R.string.red_roof_inn,  R.string.red_roof_description));
+        sites.add(new Site(R.drawable.genetti, R.string.genetti,  R.string.genetti_description));
+        sites.add(new Site(R.drawable.city, R.string.city_hall_grand_hotel,  R.string.city_hall_description));
+        sites.add(new Site(R.drawable.hampton, R.string.hampton_inn,  R.string.hampton_description));
 
         SiteAdapter adapter = new SiteAdapter(getActivity(), sites);
 

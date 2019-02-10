@@ -29,9 +29,9 @@ public class PinsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list_item, container, false);
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Site> sites = new ArrayList<Site>();
-        sites.add(new Site(R.string.genetti_pins, R.drawable.genettipin, R.string.genetti_pins_description));
-        sites.add(new Site(R.string.bullfrog, R.drawable.bullfrogpin, R.string.bullfrog_description));
-        sites.add(new Site(R.string.many_more, R.drawable.otherpin, R.string.many_more_description));
+        sites.add(new Site(R.drawable.genettipin, R.string.genetti_pins,  R.string.genetti_pins_description));
+        sites.add(new Site(R.drawable.bullfrogpin, R.string.bullfrog,  R.string.bullfrog_description));
+        sites.add(new Site(R.drawable.otherpin, R.string.many_more,  R.string.many_more_description));
 
         SiteAdapter adapter = new SiteAdapter(getActivity(), sites);
 
